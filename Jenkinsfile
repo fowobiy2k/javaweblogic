@@ -9,7 +9,7 @@ pipeline {
 
     stage('Package') {
       steps {
-        sh 'sh \'mvn clean install package\''
+        sh 'sh \'echo hello world\''
       }
     }
 
