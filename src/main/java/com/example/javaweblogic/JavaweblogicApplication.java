@@ -15,7 +15,7 @@ public class JavaweblogicApplication {
 	
 	@GetMapping("/hello")
 	public String welcome() {
-		return "This application is deployed on weblogic server 12c";
+		return "This application is deployed on weblogic server 12c.";
 	}
 
 }
