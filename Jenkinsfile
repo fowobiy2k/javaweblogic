@@ -9,7 +9,7 @@ pipeline {
 
     stage('Package') {
       steps {
-        sh 'sh \'echo hello world\''
+        sh 'sh \'echo "hello world"\''
       }
     }
 
